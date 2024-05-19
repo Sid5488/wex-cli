@@ -1,0 +1,31 @@
+{
+  "name": "wex-cli",
+  "version": "1.0.0",
+  "description": "A CLI to setup a new project wex-js",
+  "main": "./src/cli.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sid5488/wex-cli.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "cli",
+    "wex-js"
+  ],
+  "author": "Guilherme Sousa <guilhermenoobsaibot@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sid5488/wex-cli/issues"
+  },
+  "homepage": "https://github.com/Sid5488/wex-cli#readme",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "commander": "^12.1.0"
+  }
+}
