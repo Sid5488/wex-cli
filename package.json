@@ -1,13 +1,16 @@
 {
-  "name": "wex-cli",
-  "version": "1.0.0",
+  "name": "wex-js-cli",
+  "version": "1.0.4",
   "description": "A CLI to setup a new project wex-js",
-  "main": "./src/cli.mjs",
   "type": "module",
+  "main": "./lib/cli.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "install": "node ."
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "wex-cli-js": "./bin/global.mjs"
+  },
+  "preferGlobal": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Sid5488/wex-cli.git"
